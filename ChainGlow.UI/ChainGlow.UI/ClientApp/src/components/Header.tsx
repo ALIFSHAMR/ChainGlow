@@ -5,11 +5,11 @@ import { useCartStore } from '@/stores/cartStore';
 import { CartDrawer } from './CartDrawer';
 
 const navLinks = [
-  { label: 'Shop by Category', href: '/' },
-  { label: 'Gifts for Him', href: '/' },
-  { label: 'Gifts for Her', href: '/' },
-  { label: 'Gift Cards', href: '/' },
-  { label: 'Collections', href: '/' },
+  { label: 'Collections', href: '/collections' },
+  { label: 'Gift Cards', href: '/gift-cards' },
+  { label: 'About Us', href: '/about' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Contact', href: '/contact' },
 ];
 
 export function Header() {
@@ -28,7 +28,7 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className="flex-shrink-0">
           <h1 className="text-2xl font-display font-bold tracking-tight text-foreground">
-            ALIFSHA
+            GIVA
           </h1>
         </Link>
 
@@ -52,12 +52,12 @@ export function Header() {
           >
             <Search className="h-5 w-5" />
           </button>
-          <button className="p-2 text-foreground hover:text-primary transition-colors hidden sm:block">
+          <Link to="/account" className="p-2 text-foreground hover:text-primary transition-colors hidden sm:block">
             <User className="h-5 w-5" />
-          </button>
-          <button className="p-2 text-foreground hover:text-primary transition-colors hidden sm:block">
+          </Link>
+          <Link to="/wishlist" className="p-2 text-foreground hover:text-primary transition-colors hidden sm:block">
             <Heart className="h-5 w-5" />
-          </button>
+          </Link>
           <CartDrawer />
         </div>
       </div>
