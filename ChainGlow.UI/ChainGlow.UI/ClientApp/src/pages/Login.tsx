@@ -22,7 +22,7 @@ export default function Login() {
           <div className="text-center mb-8">
             <h1 className="text-3xl font-display font-bold text-foreground">{isLogin ? 'Welcome Back' : 'Create Account'}</h1>
             <p className="text-muted-foreground mt-2 text-sm">
-              {isLogin ? 'Sign in to access your account & orders' : 'Join GIVA for exclusive offers & rewards'}
+              {isLogin ? 'Sign in to access your account & orders' : 'Join for exclusive offers & rewards'}
             </p>
           </div>
 

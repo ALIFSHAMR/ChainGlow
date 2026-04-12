@@ -32,7 +32,7 @@ export default function TrackOrder() {
             <form onSubmit={e => { e.preventDefault(); setTracked(true); }} className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="orderId">Order ID</Label>
-                <Input id="orderId" placeholder="e.g. GIVA-2026-78423" value={orderId} onChange={e => setOrderId(e.target.value)} />
+                <Input id="orderId" placeholder="e.g.-2026-78423" value={orderId} onChange={e => setOrderId(e.target.value)} />
               </div>
               <Button className="w-full" size="lg" type="submit">Track Order</Button>
             </form>

@@ -19,7 +19,7 @@ export default function FAQ() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 py-12 md:py-20">
+      {/* <main className="flex-1 py-12 md:py-20">
         <div className="container mx-auto px-4 max-w-3xl">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-display font-bold text-foreground mb-3">Frequently Asked Questions</h1>
@@ -34,7 +34,7 @@ export default function FAQ() {
             ))}
           </Accordion>
         </div>
-      </main>
+      </main> */}
       <Footer />
     </div>
   );

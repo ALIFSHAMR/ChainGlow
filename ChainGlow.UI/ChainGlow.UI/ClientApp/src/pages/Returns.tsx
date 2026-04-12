@@ -10,7 +10,7 @@ const policies = [
 ];
 
 const steps = [
-  'Log in to your GIVA account and go to "My Orders".',
+  'Log in to your account and go to "My Orders".',
   'Select the item you wish to return and click "Request Return".',
   'Choose a reason for return and schedule a pickup date.',
   'Pack the item securely in its original packaging with tags attached.',

@@ -19,20 +19,17 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-card border-b border-border">
       {/* Top banner */}
-      <div className="banner-strip">
+      {/* <div className="banner-strip">
         ✨ Free Shipping on Orders Above ₹999 | Easy 30-Day Returns ✨
-      </div>
+      </div> */}
 
-      {/* Main header */}
       <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
-        {/* Logo */}
         <Link to="/" className="flex-shrink-0">
           <h1 className="text-2xl font-display font-bold tracking-tight text-foreground">
-            GIVA
+            SHA
           </h1>
         </Link>
 
-        {/* Search bar */}
         <div className="hidden md:flex flex-1 max-w-md mx-8">
           <div className="relative w-full">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -52,17 +49,16 @@ export function Header() {
           >
             <Search className="h-5 w-5" />
           </button>
-          <Link to="/account" className="p-2 text-foreground hover:text-primary transition-colors hidden sm:block">
+          <Link to="/account" title="Account" className="p-2 text-foreground hover:text-primary transition-colors hidden sm:block">
             <User className="h-5 w-5" />
           </Link>
-          <Link to="/wishlist" className="p-2 text-foreground hover:text-primary transition-colors hidden sm:block">
+          <Link to="/wishlist" title="Wishlist" className="p-2 text-foreground hover:text-primary transition-colors hidden sm:block">
             <Heart className="h-5 w-5" />
           </Link>
           <CartDrawer />
         </div>
       </div>
 
-      {/* Nav links */}
       <nav className="hidden lg:block border-t border-border">
         <div className="container mx-auto px-4">
           <ul className="flex items-center justify-center gap-8 py-2.5">

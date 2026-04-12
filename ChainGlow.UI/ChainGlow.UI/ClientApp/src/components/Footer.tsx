@@ -28,18 +28,18 @@ export function Footer() {
             <ul className="space-y-2 text-sm opacity-80">
               <li><Link to="/about" className="hover:opacity-100 transition-opacity">Our Story</Link></li>
               <li><Link to="/blog" className="hover:opacity-100 transition-opacity">Blog</Link></li>
-              <li><Link to="/careers" className="hover:opacity-100 transition-opacity">Careers</Link></li>
+              {/* <li><Link to="/careers" className="hover:opacity-100 transition-opacity">Careers</Link></li> */}
             </ul>
           </div>
           <div>
-            <h3 className="font-display text-lg font-semibold mb-4">GIVA</h3>
+            <h3 className="font-display text-lg font-semibold mb-4"></h3>
             <p className="text-sm opacity-80 leading-relaxed">
               Handcrafted jewelry designed to make every moment special. Sterling silver, ethically sourced.
             </p>
           </div>
         </div>
         <div className="border-t border-background/20 mt-10 pt-6 text-center text-sm opacity-60">
-          © 2026 GIVA. All rights reserved.
+          © 2026. All rights reserved.
         </div>
       </div>
     </footer>

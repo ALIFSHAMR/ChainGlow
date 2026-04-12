@@ -21,19 +21,19 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1">
+      {/* <main className="flex-1">
         {/* Hero */}
-        <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center bg-gradient-to-br from-accent to-secondary overflow-hidden">
+        {/* <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center bg-gradient-to-br from-accent to-secondary overflow-hidden">
           <motion.div initial="hidden" animate="visible" variants={fadeIn} transition={{ duration: 0.8 }} className="text-center px-4 max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">Our Story</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Born from a passion to make fine jewelry accessible, GIVA crafts stunning sterling silver pieces that celebrate life's precious moments — without the luxury price tag.
             </p>
           </motion.div>
-        </section>
+        </section> */}
 
         {/* Mission */}
-        <section className="py-16 md:py-24">
+        {/* <section className="py-16 md:py-24">
           <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} transition={{ duration: 0.6 }}>
               <img src="https://images.unsplash.com/photo-1515562141589-67f0d569b41e?w=600&h=500&fit=crop" alt="Jewelry crafting" className="rounded-2xl shadow-lg w-full object-cover h-[400px]" />
@@ -48,10 +48,10 @@ export default function AboutUs() {
               </p>
             </motion.div>
           </div>
-        </section>
+        </section> */}
 
         {/* Values */}
-        <section className="py-16 bg-secondary">
+        {/* <section className="py-16 bg-secondary">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-display font-bold text-foreground text-center mb-12">What We Stand For</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -64,10 +64,10 @@ export default function AboutUs() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Team */}
-        <section className="py-16 md:py-24">
+        {/* <section className="py-16 md:py-24">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-display font-bold text-foreground mb-12">Meet Our Team</h2>
             <div className="flex flex-wrap justify-center gap-10">
@@ -81,8 +81,8 @@ export default function AboutUs() {
               ))}
             </div>
           </div>
-        </section>
-      </main>
+        </section> */}
+      {/* </main> */} 
       <Footer />
     </div>
   );

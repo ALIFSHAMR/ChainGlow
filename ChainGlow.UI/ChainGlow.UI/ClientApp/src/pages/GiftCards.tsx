@@ -15,7 +15,7 @@ export default function GiftCards() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 py-12 md:py-20">
+      {/* <main className="flex-1 py-12 md:py-20">
         <div className="container mx-auto px-4 max-w-3xl">
           <div className="text-center mb-12">
             <Gift className="h-12 w-12 mx-auto text-primary mb-4" />
@@ -55,7 +55,7 @@ export default function GiftCards() {
             </form>
           </div>
         </div>
-      </main>
+      </main> */}
       <Footer />
     </div>
   );

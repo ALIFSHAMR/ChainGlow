@@ -8,7 +8,7 @@ import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'support@giva.co', href: 'mailto:support@giva.co' },
+  { icon: Mail, label: 'Email', value: 'support@12345.co', href: 'mailto:support@12354.co' },
   { icon: Phone, label: 'Phone', value: '+91 80-4567-8901', href: 'tel:+918045678901' },
   { icon: MapPin, label: 'Address', value: 'Bangalore, Karnataka, India' },
   { icon: Clock, label: 'Hours', value: 'Mon-Sat: 10AM - 7PM IST' },
